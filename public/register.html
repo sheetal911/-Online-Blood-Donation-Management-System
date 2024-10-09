@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script defer src="/js/main.js"></script>
+  <title>User Registration</title>
+</head>
+<body>
+  <header>
+    <h1>User Registration</h1>
+  </header>
+
+  <main>
+    <form id="registrationForm">
+        <div>
+            <label for="userId">UserId:</label>
+            <input type="text" id="userId" name="userId" required>
+        </div>
+            
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+            
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+            
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+            
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            
+            <label for="Female">
+                <input type="radio" id="Female" name="options" value="Female"> Female
+            </label>
+
+            <label for="Male">
+                <input type="radio" id="Male" name="options" value="Male"> Male
+            </label>
+
+            <label for="Prefer not to say">
+                <input type="radio" id="not" name="options" value="Prefer not to say"> Prefer not to say
+            </label>
+        </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+</body>
+</html>
